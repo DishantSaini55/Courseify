@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-primary text-slate-100 antialiased selection:bg-accent selection:text-white overflow-x-hidden;
+  }
+}
+
+.glass-effect {
+  @apply bg-white/5 backdrop-blur-lg border border-white/10 shadow-xl;
+}
